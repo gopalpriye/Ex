@@ -12,7 +12,7 @@
       "required": true
     },
     "BOT_TOKEN": {
-      "description": "7594405866:AAF527H4zrRubxeLfS_mAfOIgu_idqG9MsM",
+      "description": "7527954976:AAG18eVvsB3BezEzo4e3UYeiYmSRzL-Osfk",
       "required": true
     },
     "BOT_USERNAME": {
@@ -28,7 +28,7 @@
       "required": false
     },
     "CHANNEL_ID": {
-      "description": "-1002385747075",
+      "description": "-1002489642006",
       "required": true
     },
     "MONGO_URL": {
