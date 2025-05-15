@@ -1,0 +1,53 @@
+{
+  "name": "𝖤𝖣𝖴𝖢𝖠𝖳𝖨𝖮𝖭 𝖧𝖴𝖡",
+  "description": "Telegram Bot using Pyrogram",
+  "repository": "https://github.com/DAXXTEAM",
+  "env": {
+    "API_ID": {
+      "description": "18116358",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "80e7597f27a57df271dfc500120d4ea9",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "7594405866:AAF527H4zrRubxeLfS_mAfOIgu_idqG9MsM",
+      "required": true
+    },
+    "BOT_USERNAME": {
+      "description": "Gjkkfjjkc_bot",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "7836088695",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "Comma-separated list of sudo users' IDs",
+      "required": false
+    },
+    "CHANNEL_ID": {
+      "description": "-1002385747075",
+      "required": true
+    },
+    "MONGO_URL": {
+      "description": "mongodb+srv://mrnobody:modernhackers@mrnobody.q8e87ij.mongodb.net/?retryWrites=true&w=majority&appName=MrNobody",
+      "required": true
+    },
+    "PREMIUM_LOGS": {
+      "description": "1",
+      "required": true
+    }
+  },
+  "stack": "heroku-22",
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
