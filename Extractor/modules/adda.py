@@ -98,7 +98,7 @@ async def adda_command_handler(app, m):
             if os.path.getsize(file_name) > 0:
                 end = time.time()
                 elapsed_time = end-start
-                c_text = f"**App Name :** ADDA 247 \n\n BATCH NAME : {package_title}\n\n Elapsed time: {elapsed_time:.1f} seconds \n\n **╾───• Cobra Extractor •───╼**  " 
+                c_text = f"**App Name :** ADDA 247 \n\n BATCH NAME : {package_title}\n\n Elapsed time: {elapsed_time:.1f} seconds \n\n **╾───• @SEM2JOB Extractor •───╼**  " 
                 await m.reply_document(file_name, caption=c_text)
                 await app.send_document(log_channel, file_name , caption = c_text)
 
