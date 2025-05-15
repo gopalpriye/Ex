@@ -28,8 +28,8 @@ buttons = InlineKeyboardMarkup([
     [InlineKeyboardButton("🌟 𝐀𝐏𝐏𝐗 𝐀𝐏𝐏𝐒 🌟", callback_data="manual_")],
     [InlineKeyboardButton("🌟 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 𝐀𝐏𝐏𝐒 🌟", callback_data="premium_apps")],
     [
-        InlineKeyboardButton("👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫", url="https://t.me/YourDeveloperUsername"),
-        InlineKeyboardButton("📢 𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/YourChannelUsername")
+        InlineKeyboardButton("👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫", url="https://t.me/SEM2JOB"),
+        InlineKeyboardButton("📢 𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/SEM2JOB_free")
     ]
 ])
 
